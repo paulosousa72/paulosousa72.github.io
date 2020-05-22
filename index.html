@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8"/>
-    <title>Document</title>
-</head>
-<body>
-   <a "tel:1123456789" /a>
-</body>
-</html>	
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Javascript open link without click</title> 
+        <style> 
+            .gfg { 
+                text-align:center; 
+                font-size:40px; 
+                font-weight:bold; 
+                color:green; 
+            } 
+        </style> 
+        <script> 
+            function myFunction() { 
+                window.open("https://www.geeksforgeeks.org", "_top"); 
+            } 
+        </script> 
+    </head> 
+    <body> 
+        <div class = "gfg" onmouseover = "myFunction()"> 
+            GeeksforGeeks 
+        </div> 
+    </body> 
+</html>   
+Output:
